@@ -1,0 +1,31 @@
+
+
+<div id= "in">
+<h1 class="shadow p-3 mb-5 bg-white rounded">
+{{employee.title}}
+</h1>
+
+<h4 class="shadow-sm p-3 mb-5 bg-white rounded rounded-pill">Name: {{getFullName()}}</h4> 
+</div>
+
+<h6 id= "around" class="shadow p-3 mb-5 bg-white rounded "> Weekly pay : {{calculateWeeklyPay()|currency }}<h6>
+ <br>
+
+<app-employees-detail [employee]="employee"
+></app-employees-detail>
+
+<div class="shadow p-3 mb-5 bg-white rounded rounded-pill">
+
+<h6>Age : {{employee.age}}</h6>
+
+<h6>Address : {{employee.address}}</h6>
+
+<h6>Telf : {{employee.telephone}}</h6>
+
+</div>
+
+
+
+
+
+

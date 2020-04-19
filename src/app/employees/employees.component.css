@@ -1,0 +1,23 @@
+
+#in {
+  background-color: turquoise;
+  padding: 3px;
+  filter: opacity(80%);
+  text-align:center;
+}
+
+h6 {
+  color: rgba(53, 158, 142, 0.639);
+}
+
+#around {
+ 
+  content: "";
+  background-image: <img src="https://pixabay.com/fr/photos/turquoise-cuir-texture-de-cuir-peau-2190685/" class="img-fluid" alt="Responsive image">;
+
+}
+
+
+
+
+
