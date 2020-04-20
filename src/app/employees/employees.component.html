@@ -1,17 +1,17 @@
+<div style= "padding-left : 550px">
 
 <div class="card" style="width: 18rem;">
-  <img src="employeesdetail/turquoise-leather-2190685_1920.jpg" class="card-img-top" alt="...">
+  <div class="card" style="max-width: 18rem;">
   <div class="card-body">
 <div id= "in">
 <h1 class="shadow p-3 mb-5 bg-white rounded">
 {{employee.title}}
 </h1>
 
-<h4 class="shadow-sm p-3 mb-5 bg-white rounded rounded-pill">Name: {{getFullName()}}</h4> 
+<h4 class="shadow p-3 mb-5 bg-white rounded rounded-pill">Name: {{getFullName()}}</h4> 
 </div>
 
-<h6 id= "around" class="shadow p-3 mb-5 bg-white rounded "> Weekly pay : {{calculateWeeklyPay()|currency }}<h6>
- <br>
+<div class="shadow p-3 mb-5 bg-white rounded "> Weekly pay : {{calculateWeeklyPay()|currency }}</div>
 
 <app-employees-detail [employee]="employee"
 ></app-employees-detail>
@@ -22,7 +22,9 @@
 
 <h6>Address : {{employee.address}}</h6>
 
-<h6>Telf : {{employee.telephone}}</h6>
+<h6>Telephone : {{employee.telephone}}</h6>
+
+</div>
 
 </div>
 

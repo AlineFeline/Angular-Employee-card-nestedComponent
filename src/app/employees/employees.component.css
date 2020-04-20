@@ -3,11 +3,22 @@
   background-color: turquoise;
   padding: 3px;
   filter: opacity(80%);
-  text-align:center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif; 
 }
 
 h6 {
   color: rgba(53, 158, 142, 0.639);
+  font-family: 'Segoe UI', sans-serif; 
+  font-size: 18px;
+}
+
+h1 {
+color: rgba(53, 158, 142, 0.639);
+}
+
+.card-body {
+  background-color: rgba(187, 216, 141, 0.476);
 }
 
 
